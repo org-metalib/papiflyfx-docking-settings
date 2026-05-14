@@ -1,0 +1,8 @@
+org.metalib.papifly.fx.settings.categories.AppearanceCategory
+org.metalib.papifly.fx.settings.categories.WorkspaceCategory
+org.metalib.papifly.fx.settings.categories.SecurityCategory
+org.metalib.papifly.fx.settings.categories.ProfilesCategory
+org.metalib.papifly.fx.settings.categories.NetworkCategory
+org.metalib.papifly.fx.settings.categories.KeyboardShortcutsCategory
+org.metalib.papifly.fx.settings.categories.AiModelsCategory
+org.metalib.papifly.fx.settings.categories.McpServersCategory

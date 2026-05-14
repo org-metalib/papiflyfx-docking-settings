@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.metalib.papifly.docking</groupId>
+        <artifactId>papiflyfx-docking-settings-parent</artifactId>
+        <version>0.0.25-SNAPSHOT</version>
+    </parent>
+    <artifactId>papiflyfx-docking-settings-api</artifactId>
+    <name>papiflyfx-docking-settings-api</name>
+    <description>Lightweight API module for settings categories, storage, and secret management.</description>
+    <dependencies>
+        <dependency>
+            <groupId>org.metalib.papifly.docking</groupId>
+            <artifactId>papiflyfx-docking-api</artifactId>
+            <version>${papiflyfx.version}</version>
+        </dependency>
+    </dependencies>
+</project>

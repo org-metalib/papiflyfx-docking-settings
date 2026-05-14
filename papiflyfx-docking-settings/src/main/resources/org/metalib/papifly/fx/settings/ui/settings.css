@@ -1,0 +1,364 @@
+.pf-settings-panel {
+    -fx-background-color: -pf-ui-surface-panel;
+}
+
+.pf-settings-category-list {
+    -fx-control-inner-background: -pf-ui-surface-panel-subtle;
+    -fx-border-color: -pf-ui-border-default;
+    -fx-border-width: 0 1 0 0;
+}
+
+.pf-settings-category-list .list-cell {
+    -fx-background-color: transparent;
+    -fx-text-fill: -pf-ui-text-primary;
+    -fx-padding: 0;
+}
+
+.pf-settings-category-list .list-cell .pf-settings-category-row {
+    -fx-alignment: center-left;
+}
+
+.pf-settings-category-list .list-cell .pf-settings-category-label {
+    -fx-text-fill: -pf-ui-text-primary;
+}
+
+.pf-settings-category-list .list-cell:selected {
+    -fx-background-color: -pf-ui-surface-selected-inactive;
+}
+
+.pf-settings-category-list:focused .list-cell:selected {
+    -fx-background-color: -pf-ui-surface-selected;
+}
+
+.pf-settings-category-list .list-cell:hover {
+    -fx-background-color: -pf-ui-surface-control-hover;
+}
+
+.pf-settings-category-list .list-cell:selected:hover {
+    -fx-background-color: -pf-ui-surface-selected-inactive;
+}
+
+.pf-settings-category-list:focused .list-cell:selected:hover {
+    -fx-background-color: -pf-ui-surface-selected;
+}
+
+.pf-settings-category-list .list-cell:hover .pf-settings-category-label,
+.pf-settings-category-list .list-cell:selected .pf-settings-category-label,
+.pf-settings-category-list:focused .list-cell:selected .pf-settings-category-label {
+    -fx-text-fill: -pf-ui-text-primary;
+}
+
+.pf-settings-content-area {
+    -fx-background-color: -pf-ui-surface-panel;
+    -fx-padding: 12;
+}
+
+.pf-settings-content-scroll {
+    -fx-background: -pf-ui-surface-panel;
+    -fx-border-color: -pf-ui-border-default;
+    -fx-border-width: 0 0 1 0;
+}
+
+.pf-settings-search-bar {
+    -fx-background-color: -pf-ui-surface-panel-subtle;
+    -fx-border-color: -pf-ui-border-default;
+    -fx-border-width: 0 0 1 0;
+    -fx-padding: 8;
+}
+
+.pf-settings-search-field {
+    -fx-highlight-fill: -pf-ui-accent;
+}
+
+.pf-settings-combo-box {
+    -fx-background-color: -pf-ui-surface-control;
+    -fx-background-radius: 8px;
+    -fx-border-color: -pf-ui-border-default;
+    -fx-border-radius: 8px;
+    -fx-border-width: 1;
+    -fx-text-fill: -pf-ui-text-primary;
+    -fx-prompt-text-fill: -pf-ui-text-muted;
+}
+
+.pf-settings-combo-box:focused,
+.pf-settings-combo-box:showing {
+    -fx-border-color: -pf-ui-border-focus;
+}
+
+.pf-settings-combo-box:disabled {
+    -fx-text-fill: -pf-ui-text-disabled;
+    -fx-opacity: 1.0;
+}
+
+.pf-settings-combo-box > .list-cell {
+    -fx-background-color: transparent;
+    -fx-text-fill: -pf-ui-text-primary;
+}
+
+.pf-settings-combo-box > .arrow-button {
+    -fx-background-color: transparent;
+    -fx-background-radius: 0 8px 8px 0;
+}
+
+.pf-settings-combo-box > .arrow-button > .arrow {
+    -fx-background-color: -pf-ui-text-muted;
+}
+
+.pf-settings-combo-box.color-picker {
+    -fx-padding: 0;
+}
+
+.pf-settings-combo-box.color-picker > .color-picker-label {
+    -fx-background-color: transparent;
+    -fx-padding: 0.333333em 0.666667em 0.333333em 0.666667em;
+    -fx-text-fill: -pf-ui-text-primary;
+}
+
+.pf-settings-combo-box.color-picker:disabled > .color-picker-label {
+    -fx-text-fill: -pf-ui-text-disabled;
+}
+
+.pf-settings-combo-box.color-picker > .arrow-button {
+    -fx-background-color: transparent;
+    -fx-background-radius: 0 8px 8px 0;
+    -fx-border-color: transparent transparent transparent -pf-ui-border-default;
+    -fx-border-width: 0 0 0 1;
+    -fx-padding: 0.5em 0.667em 0.5em 0.667em;
+}
+
+.pf-settings-combo-box.color-picker:focused > .arrow-button,
+.pf-settings-combo-box.color-picker:showing > .arrow-button {
+    -fx-border-color: transparent transparent transparent -pf-ui-border-focus;
+}
+
+.pf-settings-combo-box.color-picker > .color-picker-label > .picker-color > .picker-color-rect {
+    -fx-stroke: -pf-ui-border-default;
+}
+
+.pf-settings-combo-box.color-picker:focused > .color-picker-label > .picker-color > .picker-color-rect,
+.pf-settings-combo-box.color-picker:showing > .color-picker-label > .picker-color > .picker-color-rect {
+    -fx-stroke: -pf-ui-border-focus;
+}
+
+.combo-box-popup > .list-view {
+    -fx-background-color: -pf-ui-surface-overlay;
+    -fx-control-inner-background: -pf-ui-surface-overlay;
+    -fx-border-color: -pf-ui-border-default;
+    -fx-border-width: 1;
+    -fx-background-radius: 8px;
+    -fx-border-radius: 8px;
+    -fx-padding: 4px;
+}
+
+.combo-box-popup > .list-view .list-cell {
+    -fx-background-color: transparent;
+    -fx-text-fill: -pf-ui-text-primary;
+    -fx-background-radius: 6px;
+}
+
+.combo-box-popup > .list-view .list-cell:hover {
+    -fx-background-color: -pf-ui-surface-control-hover;
+}
+
+.combo-box-popup > .list-view .list-cell:selected {
+    -fx-background-color: -pf-ui-surface-selected;
+}
+
+.color-palette {
+    -fx-spacing: 0.833333em;
+    -fx-background-color: -pf-ui-surface-overlay;
+    -fx-border-color: -pf-ui-border-default;
+    -fx-border-width: 1;
+    -fx-background-radius: 8px;
+    -fx-border-radius: 8px;
+    -fx-padding: 1em;
+}
+
+.color-palette > .label {
+    -fx-text-fill: -pf-ui-text-primary;
+}
+
+.color-palette > .hyperlink {
+    -fx-text-fill: -pf-ui-accent;
+    -fx-border-color: transparent;
+}
+
+.color-palette > .hyperlink:hover,
+.color-palette > .hyperlink:focused {
+    -fx-text-fill: -pf-ui-accent;
+}
+
+.color-palette > .separator .line {
+    -fx-border-color: -pf-ui-border-default;
+}
+
+.color-palette > .color-picker-grid {
+    -fx-padding: 0.5px;
+    -fx-snap-to-pixel: false;
+}
+
+.color-palette > .color-picker-grid > .color-square {
+    -fx-background-color: transparent;
+    -fx-padding: 0.5px;
+}
+
+.color-palette-region > .color-square.hover-square {
+    -fx-background-color: -pf-ui-surface-overlay, -pf-ui-surface-control;
+    -fx-background-insets: -3, -1;
+    -fx-background-radius: 5, 0;
+    -fx-scale-x: 1.5;
+    -fx-scale-y: 1.5;
+    -fx-border-color: -pf-ui-border-focus;
+    -fx-border-insets: -1, -1;
+}
+
+.pf-settings-text-area {
+    -fx-background-color: -pf-ui-surface-control;
+    -fx-background-radius: 8px;
+    -fx-border-color: -pf-ui-border-default;
+    -fx-border-radius: 8px;
+    -fx-border-width: 1;
+    -fx-text-fill: -pf-ui-text-primary;
+    -fx-prompt-text-fill: -pf-ui-text-muted;
+    -fx-highlight-fill: -pf-ui-accent-subtle;
+    -fx-highlight-text-fill: -pf-ui-text-primary;
+}
+
+.pf-settings-text-area:focused {
+    -fx-border-color: -pf-ui-border-focus;
+}
+
+.pf-settings-text-area:disabled {
+    -fx-text-fill: -pf-ui-text-disabled;
+    -fx-opacity: 1.0;
+}
+
+.pf-settings-text-area .content {
+    -fx-background-color: -pf-ui-surface-control;
+    -fx-background-radius: 7px;
+}
+
+.pf-settings-check-box {
+    -fx-text-fill: -pf-ui-text-primary;
+}
+
+.pf-settings-check-box > .box {
+    -fx-background-color: -pf-ui-surface-control;
+    -fx-border-color: -pf-ui-border-default;
+    -fx-border-width: 1;
+    -fx-border-radius: 4px;
+    -fx-background-radius: 4px;
+}
+
+.pf-settings-check-box:hover > .box {
+    -fx-background-color: -pf-ui-surface-control-hover;
+}
+
+.pf-settings-check-box:focused > .box {
+    -fx-border-color: -pf-ui-border-focus;
+}
+
+.pf-settings-check-box:selected > .box {
+    -fx-background-color: -pf-ui-accent-subtle;
+    -fx-border-color: -pf-ui-accent;
+}
+
+.pf-settings-check-box:selected > .box > .mark {
+    -fx-background-color: -pf-ui-text-primary;
+}
+
+.pf-settings-check-box:disabled {
+    -fx-text-fill: -pf-ui-text-disabled;
+    -fx-opacity: 1.0;
+}
+
+.pf-settings-check-box:disabled > .box {
+    -fx-border-color: -pf-ui-border-default;
+}
+
+.pf-settings-list {
+    -fx-background-color: -pf-ui-surface-control;
+    -fx-control-inner-background: -pf-ui-surface-control;
+    -fx-border-color: -pf-ui-border-default;
+    -fx-border-width: 1;
+    -fx-background-radius: 8px;
+    -fx-border-radius: 8px;
+    -fx-padding: 4px;
+}
+
+.pf-settings-list .list-cell {
+    -fx-background-color: transparent;
+    -fx-text-fill: -pf-ui-text-primary;
+    -fx-background-radius: 6px;
+}
+
+.pf-settings-list .list-cell:hover {
+    -fx-background-color: -pf-ui-surface-control-hover;
+}
+
+.pf-settings-list .list-cell:selected {
+    -fx-background-color: -pf-ui-surface-selected-inactive;
+}
+
+.pf-settings-list:focused .list-cell:selected {
+    -fx-background-color: -pf-ui-surface-selected;
+}
+
+.pf-settings-list .list-cell:selected:hover {
+    -fx-background-color: -pf-ui-surface-selected-inactive;
+}
+
+.pf-settings-list:focused .list-cell:selected:hover {
+    -fx-background-color: -pf-ui-surface-selected;
+}
+
+.pf-settings-toolbar {
+    -fx-background-color: -pf-ui-surface-panel-subtle;
+    -fx-padding: 8;
+}
+
+.pf-settings-dirty-label {
+    -fx-text-fill: -pf-ui-warning;
+    -fx-font-size: 11px;
+    -fx-font-weight: bold;
+}
+
+.pf-settings-status-label {
+    -fx-text-fill: -pf-ui-success;
+    -fx-font-size: 11px;
+}
+
+.pf-settings-scope-label {
+    -fx-text-fill: -pf-ui-text-muted;
+    -fx-font-size: 11px;
+}
+
+.pf-settings-control {
+    -fx-spacing: 4;
+}
+
+.pf-settings-control-title {
+    -fx-font-weight: bold;
+    -fx-text-fill: -pf-ui-text-primary;
+}
+
+.pf-settings-section-title {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: -pf-ui-text-primary;
+}
+
+.pf-settings-control-description {
+    -fx-text-fill: -pf-ui-text-muted;
+    -fx-font-size: 11px;
+}
+
+.pf-settings-control-validation-error {
+    -fx-text-fill: -pf-ui-danger;
+    -fx-font-size: 11px;
+}
+
+.pf-settings-control-validation-warning {
+    -fx-text-fill: -pf-ui-warning;
+    -fx-font-size: 11px;
+}
