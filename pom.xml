@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>org.metalib.papifly.docking</groupId>
-        <artifactId>papiflyfx-build-parent</artifactId>
+        <artifactId>papiflyfx-docking-settings</artifactId>
         <version>0.0.25</version>
     </parent>
     <version>0.0.25-SNAPSHOT</version>
@@ -16,4 +16,10 @@
         <module>papiflyfx-docking-settings-api</module>
         <module>papiflyfx-docking-settings</module>
     </modules>
+    <scm>
+        <connection>scm:git:git://github.com/org-metalib/papiflyfx-docking-settings.git</connection>
+        <developerConnection>scm:git:https://github.com/org-metalib/papiflyfx-docking-settings.git</developerConnection>
+        <url>https://github.com/org-metalib/papiflyfx-docking-settings</url>
+        <tag>HEAD</tag>
+    </scm>
 </project>
