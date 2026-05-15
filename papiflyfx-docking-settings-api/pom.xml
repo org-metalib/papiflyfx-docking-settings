@@ -4,7 +4,7 @@
     <parent>
         <groupId>org.metalib.papifly.docking</groupId>
         <artifactId>papiflyfx-docking-settings-parent</artifactId>
-        <version>0.0.25-SNAPSHOT</version>
+        <version>0.0.25</version>
     </parent>
     <artifactId>papiflyfx-docking-settings-api</artifactId>
     <name>papiflyfx-docking-settings-api</name>
@@ -13,7 +13,7 @@
         <dependency>
             <groupId>org.metalib.papifly.docking</groupId>
             <artifactId>papiflyfx-docking-api</artifactId>
-            <version>${papiflyfx.version}</version>
+            <version>0.0.25</version>
         </dependency>
     </dependencies>
 </project>
